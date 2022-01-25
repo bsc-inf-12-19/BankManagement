@@ -1,15 +1,14 @@
 class BusinessAccounts{
-    private String accountNumber;
+    private int accountNumber;
     private String accountName;
     private double balance;
-    private String regNumber;
     private String businessAddress;
     BusinessAccounts(){
     }
-    String getAccountNumber(){
+    int getAccountNumber(){
         return this.accountNumber;
     }
-    void setAccountNumber(String accountNumber){
+    void setAccountNumber(int accountNumber){
         this.accountNumber = accountNumber; 
     }
     String getAccountName(){
@@ -20,19 +19,11 @@ class BusinessAccounts{
     }
 
     double getBalance(){
-        return this.Balance;
+        return this.balance;
     }
     void setBalance(double balance){
         this.balance = balance;
     }
-
-    String getRegNumber(){
-        return this.regNumber;
-    }
-    void setregNumber(String regNumber){
-        this.regNumber = regNumber;
-    }
-
     String getBusinessAddress(){
         return this.businessAddress;
     }

@@ -8,6 +8,7 @@ class AccountDetails{
        System.out.println("4. Withdraw Money From An Account");
        System.out.println("5. Check Account Balance");
        System.out.println("6. Exit");
+       System.out.print("\nEnter your choice:");
 
     }
 } 

@@ -1,15 +1,15 @@
 class StudentAccounts{
-    private String accountNumber;
+    private int accountNumber;
     private String accountName;
     private double balance;
     private String regNumber;
     StudentAccounts(){
     }
 
-    String getAccountNumber(){
+    int getAccountNumber(){
         return this.accountNumber;
     }
-    void setAccountNumber(String accountNumber){
+    void setAccountNumber(int accountNumber){
         this.accountNumber = accountNumber; 
     }
     String getAccountName(){
@@ -20,7 +20,7 @@ class StudentAccounts{
     }
 
     double getBalance(){
-        return this.Balance;
+        return this.balance;
     }
     void setBalance(double balance){
         this.balance = balance;
